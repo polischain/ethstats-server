@@ -8,7 +8,7 @@
     "npm": "6.4.1"
   },
   "scripts": {
-    "build": "grunt all",
+    "postinstall": "grunt all",
     "start": "node ./bin/www"
   },
   "dependencies": {
